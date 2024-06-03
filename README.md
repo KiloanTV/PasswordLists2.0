@@ -91,6 +91,7 @@ with open(hashed_passwords_file, 'w') as f:
     f.write('\n'.join(hashed_passwords))
 
 print(f"{num_passwords} Passwörter wurden generiert und in '{plain_passwords_file}' und '{hashed_passwords_file}' gespeichert.")
+```
 
 ## Lizenz
 
