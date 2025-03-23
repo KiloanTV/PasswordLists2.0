@@ -17,8 +17,7 @@ plain_passwords = []
 # Funktion zur Generierung eines zufälligen Passworts
 def generate_random_password():
     print(".")
-    characters = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(characters) for _ in range(password_length))
+    return ''.join(random.choice(string.digits) for _ in range(password_length))
 
 # Generiere die Passwörter
 for i in range(1, num_passwords + 1):
